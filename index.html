@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Web Quiz</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <main>
+        
+        <!-- top bar section -->
+        <header class="top-bar">
+            <div class="time-info">
+                <h1> JavaScript Coding Quiz Challenge</h1>
+                <h2 class="timer">Timer : 00</h2>
+            </div>
+            <div>
+                <button class="view-highscore-button">View Highscores</button>
+            </div>
+        </header>
+
+        <!-- Where the whole quiz is being held -->
+        <section class="quiz-container">
+
+            <!-- Part One -->
+            <div class="intro-screen">
+                <h3>Welcome to the Quiz!</h3>
+                <p>To get started with the quiz, simply hit start.</p>
+                <button class="start-button">Let's Go!</button>
+            </div>
+
+            <!-- Part 2 -->
+            <div class="question-screen">
+                <h3>Quiz question will contain the questions that are being asked</h3>
+                <!-- will contain the options to chose from, generated in JS -->
+                <ul class="question-options">
+                    <li><button>Answer 1</button></li>
+                    <li><button>Answer 1</button></li>
+                    <li><button>Answer 1</button></li>
+                    <li><button>Answer 1</button></li>
+                </ul>
+            </div>
+
+            <!-- Part 3 -->
+            <div class="finish-screen">
+                <h3>Congratulations, you finished the quiz!</h3>
+                <p>your score is: 00</p>
+                <div>
+                    <input type="text" placeholder="Your Name">
+                    <button class="submit-button">submit</button>
+                </div>
+            </div>
+
+            <!-- part 4 -->
+            <div class="highscores-screen">
+                <h3>Highscores</h3>
+                <ol>
+                    <!-- made in JS -->
+                    <li> FC - 5</li>
+                    <li> FC - 5</li>
+                </ol>
+                <div class="final-button-holder">
+                    <button class="play-again-button">Play Again</button>
+                    <button class="clear-hihgscore-button">Clear Highscores</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- bottom bar -->
+        <section class="status-container">
+            <!-- will show wrong or correct to left, question 1/5 on the right -->
+            <h4>Correct / Wrong</h4>
+            <h5>Question 1/6</h5>
+        </section>
+
+    </main>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
