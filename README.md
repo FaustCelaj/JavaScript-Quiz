@@ -72,6 +72,7 @@ function goQuizScreen() {
     questionScreen.setAttribute("style", "display: block");
 };
 ```
+
 As stated in the CSS our displays were set to none for most of the screens. this function turns on the next display and turns off the previous one. This allows us to go to the next phase.
 
 In the end, if the user wants to play again we have to reset everything to its original state.
@@ -119,6 +120,7 @@ const questions = [
       ]
     },
 ```
+
 The questions consist of an array of 5 objects (5 Questions), and deeper in is another object(questions) that contains our crucial information, the questions, and another object (answers) to each. Lastly in the answers, the is yet another array of objects that contains text and a boolean to allow us to determine which answer is right and wrong.
 
 Many articles and videos I watched helped me understand how to pick information out of the array accurately and display what I wanted. These were some of the ones that helped me the most:
@@ -131,12 +133,14 @@ Many articles and videos I watched helped me understand how to pick information 
 
 This process is made up of three parts
 1. `function renderQuestion()`
-I first needed to start off by declaring some variables
+  I first needed to start off by declaring some variables
+
 ```js
 let currentQuestion = questions[currentQuestionIndex];
     let questionNumber = currentQuestionIndex + 1;
     questionDisplay.innerHTML = questionNumber + ". " + currentQuestion.question;
 ```
+
   these variables would later help cycle through the questions array. `[currentQuestionIndex]` was declared in the beginning as 0. The last line in the snippet above targets our question display ID in the HTML and uses `.innerHTML` to change the text value with the current question's (object) question.
 
   Next, I tackled creating and displaying each of the answers by using a forEach loop.
@@ -215,6 +219,7 @@ submitButton.addEventListener('click', function (event) {
     }
 });
 ```
+
 Here we can see an event listener was added to track the click of the button. we created an object to store the user's info. With `localStorage.setItem("user", JSON.stringify(user))` we can store the info as a string.
 
 
@@ -233,7 +238,6 @@ function renderAllScores() {
 ```
 
 Lastly to clear the scores we can use `localStorage.clear();` which deletes the browser's local storage. 
-
 
 ## Images
 
