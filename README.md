@@ -72,7 +72,19 @@ function goQuizScreen() {
     questionScreen.setAttribute("style", "display: block");
 };
 ```
-As stated in the CSS our displays were set to none for most of the screens. this function turns on the next display and turns off the previous one. This allows us to go to the next phase
+As stated in the CSS our displays were set to none for most of the screens. this function turns on the next display and turns off the previous one. This allows us to go to the next phase.
+
+In the end, if the user wants to play again we have to reset everything to its original state.
+
+```js
+playAgainButton.addEventListener('click', function goHome() {
+    highscoresScreen.setAttribute("style", "display: none");
+    questionScreen.setAttribute("style", "display: none");
+    finishScreen.setAttribute("style", "display: none");
+    introScreen.setAttribute("style", "display: flex");
+    timerElement.textContent = "Timer : 00";
+});
+```
 
 
 ### Timer
@@ -110,9 +122,9 @@ const questions = [
 The questions consist of an array of 5 objects (5 Questions), and deeper in is another object(questions) that contains our crucial information, the questions, and another object (answers) to each. Lastly in the answers, the is yet another array of objects that contains text and a boolean to allow us to determine which answer is right and wrong.
 
 Many articles and videos I watched helped me understand how to pick information out of the array accurately and display what I wanted. These were some of the ones that helped me the most:
-(https://www.freecodecamp.org/news/javascript-array-of-objects-tutorial-how-to-create-update-and-loop-through-objects-using-js-array-methods/)
-(https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/)
-(https://stackoverflow.com/questions/9329446/loop-for-each-over-an-array-in-javascript)
+- (https://www.freecodecamp.org/news/javascript-array-of-objects-tutorial-how-to-create-update-and-loop-through-objects-using-js-array-methods/)
+- (https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/)
+- (https://stackoverflow.com/questions/9329446/loop-for-each-over-an-array-in-javascript)
 
 
 ### Questions and Answers
@@ -203,23 +215,26 @@ submitButton.addEventListener('click', function (event) {
     }
 });
 ```
-Here we can see an event listenter was added to track the click of the button
+Here we can see an event listener was added to track the click of the button. we created an object to store the user's info. With `localStorage.setItem("user", JSON.stringify(user))` we can store the info as a string.
 
 
+### Scores
+
+Finally, at the highscore screen, we can see the score is presented with the information stored in the previous step. All we needed to do was get the previously stored info and create text to the Score Entry element of the HTML. The following code showcases this. 
+
+```js
+function renderAllScores() {
+    let userScore = JSON.parse(localStorage.getItem("user"));
+    console.log(userScore);
+    // turns the parsed info to show as new <li>
+    let scoreEntry = document.createElement("li");
+    scoreEntry.textContent = `${userScore.userName} ----- ${userScore.score}`;
+    scoreList.appendChild(scoreEntry);
+```
+
+Lastly to clear the scores we can use `localStorage.clear();` which deletes the browser's local storage. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Images
 
 
