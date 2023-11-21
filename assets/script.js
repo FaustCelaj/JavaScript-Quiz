@@ -200,7 +200,6 @@ function displayMessage(message, type) {
 
 // Function to show all scores in the high scores list
 function renderAllScores() {
-    scoreList.innerHTML = "";
     let userScore = JSON.parse(localStorage.getItem("user"));
     console.log(userScore);
     // turns the parsed info to show as new <li>
@@ -231,7 +230,6 @@ submitButton.addEventListener('click', function (event) {
 function goScoreScreen() {
     finishScreen.setAttribute("style", "display: none");
     highscoresScreen.setAttribute("style", "display: block");
-    renderAllScores();
 };
 
 //sets user back to play again
@@ -246,4 +244,5 @@ playAgainButton.addEventListener('click', function goHome() {
 //clears scores
 clearHighscoreButton.addEventListener('click', function() {
     localStorage.clear();
+    scoreList.innerHTML = '';
 });
