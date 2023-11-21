@@ -4,16 +4,16 @@
 I was tasked to develop a quiz for users to take to test their JavaScript knowledge. This task helped me understand and further develop my JavaScript skills along with practicing DOM manipulation to get the desired results.
 
 [[TOC]]
-Planning [#### How I Planned The Quiz]
-[## HTML](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#html)
-[## CSS](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#css)
-[## JavaScript](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#javascript)
-  [Declaring Variables](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#declaring-variables)
-  [Switching Phases](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#switching-phases)
-  [The Questions](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#the-questions)
-  [Displaying Questions and Answers](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#displaying-questions-and-answers)
-  [Capturing user input]()
-  [Capturing user name and score]()
+  1. [How I Planned The Quiz]
+  2. [HTML](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#html)
+  3. [CSS](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#css)
+  4. [JavaScript](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#javascript)
+  5. [Declaring Variables](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#declaring-variables)
+  6. [Switching Phases](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#switching-phases)
+  7. [The Questions](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#the-questions)
+  8. [Displaying Questions and Answers](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#displaying-questions-and-answers)
+  9. [Capturing user input]()
+  10. [Capturing user name and score]()
 
 
 ## How I Planned The Quiz
