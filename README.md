@@ -5,15 +5,15 @@ I was tasked to develop a quiz for users to take to test their JavaScript knowle
 
 [[TOC]]
 Planning [#### How I Planned The Quiz]
-HTML [## HTML]
-CSS [## CSS]
-JavaScript [## JavaScript]
-  Declaring Variables
-  switching Phases
-  The Questions
-  Displaying Questions and Answers
-  Capturing user input
-  Capturing user name and score
+[## HTML](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#html)
+[## CSS](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#css)
+[## JavaScript](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#javascript)
+  [Declaring Variables](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#declaring-variables)
+  [Switching Phases](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#switching-phases)
+  [The Questions](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#the-questions)
+  [Displaying Questions and Answers](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#displaying-questions-and-answers)
+  [Capturing user input]()
+  [Capturing user name and score]()
 
 
 ## How I Planned The Quiz
