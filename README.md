@@ -13,10 +13,10 @@ You can view the live application [here](https://faustcelaj.github.io/JavaScript
   5. [Declaring Variables](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#declaring-variables)
   6. [Switching Phases](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#switching-phases)
   7. [The Questions](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#the-questions)
-  8. [Questions and Answers](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#displaying-questions-and-answers)
-  9. [Capturing user info](https://github.com/FaustCelaj/JavaScript-Quiz/edit/main/README.md#capturing-user-info)
-  10. [Scores](https://github.com/FaustCelaj/JavaScript-Quiz/edit/main/README.md#scores)
-  11. [Images](https://github.com/FaustCelaj/JavaScript-Quiz/edit/main/README.md#images)
+  8. [Questions and Answers](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#questions-and-answers)
+  9. [Capturing user info](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#capturing-user-info)
+  10. [Scores](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#scores)
+  11. [Images](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#images)
 
 
 ## How I Planned The Quiz
@@ -244,9 +244,9 @@ Lastly to clear the scores we can use `localStorage.clear();` which deletes the 
 
 ## Images
 
-[Start Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/start.png)
-[Quiz Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/quiz.png)
-[Submit Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/submit.png)
-[End Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/highscore.png)
+![Start Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/start.png)
+![Quiz Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/quiz.png)
+![Submit Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/submit.png)
+![End Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/highscore.png)
 
 
