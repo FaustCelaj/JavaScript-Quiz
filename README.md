@@ -3,8 +3,10 @@
 ## The Goal
 I was tasked to develop a quiz for users to take to test their JavaScript knowledge. This task helped me understand and further develop my JavaScript skills along with practicing DOM manipulation to get the desired results.
 
+You can view the live application [here](https://faustcelaj.github.io/JavaScript-Quiz/)
+
 ## Table Of Contents
-  1. [How I Planned The Quiz]()
+  1. [How I Planned The Quiz](https://github.com/FaustCelaj/JavaScript-Quiz/edit/main/README.md#how-i-planned-the-quiz)
   2. [HTML](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#html)
   3. [CSS](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#css)
   4. [JavaScript](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#javascript)
@@ -12,8 +14,9 @@ I was tasked to develop a quiz for users to take to test their JavaScript knowle
   6. [Switching Phases](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#switching-phases)
   7. [The Questions](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#the-questions)
   8. [Questions and Answers](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/README.md#displaying-questions-and-answers)
-  9. [Capturing user input]()
-  10. [Capturing user name and score]()
+  9. [Capturing user info](https://github.com/FaustCelaj/JavaScript-Quiz/edit/main/README.md#capturing-user-info)
+  10. [Scores](https://github.com/FaustCelaj/JavaScript-Quiz/edit/main/README.md#scores)
+  11. [Images](https://github.com/FaustCelaj/JavaScript-Quiz/edit/main/README.md#images)
 
 
 ## How I Planned The Quiz
@@ -240,5 +243,10 @@ function renderAllScores() {
 Lastly to clear the scores we can use `localStorage.clear();` which deletes the browser's local storage. 
 
 ## Images
+
+[Start Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/start.png)
+[Quiz Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/quiz.png)
+[Submit Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/submit.png)
+[End Screen](https://github.com/FaustCelaj/JavaScript-Quiz/blob/main/highscore.png)
 
 
